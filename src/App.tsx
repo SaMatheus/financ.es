@@ -1,8 +1,9 @@
 import React from 'react';
+import { Logo } from './components/atoms'
 
 function App() {
   return (
-    <h1>Financ.es</h1>
+    <Logo />
   )
 }
 

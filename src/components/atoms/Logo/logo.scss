@@ -1,0 +1,12 @@
+@import '../../../themes/palette.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  &__text {
+    color: $white;
+    font-weight: 600;
+    font-size: 32px;
+  }
+}
