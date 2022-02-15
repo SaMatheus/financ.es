@@ -1,8 +1,9 @@
 import React from 'react';
+import { Button } from './components/atoms'
 
 function App() {
   return (
-    <h1>Financ.es</h1>
+    <Button label='Nova transação' onClick={() => console.log('Click')} />
   )
 }
 
